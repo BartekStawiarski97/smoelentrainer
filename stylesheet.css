@@ -1,0 +1,15 @@
+.bordersImage{
+    outline: 2px solid white;
+    outline-offset: -2px;
+}
+
+.bordersName{
+    outline: 2px solid white;
+    outline-offset: -2px;
+}
+
+body {
+ background-image: url("img/background.jpg");
+}
+
+
