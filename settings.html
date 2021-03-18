@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Settings</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>	
+	<h1 class="text-center">Settings</h1>
+	<form id="formSettings">
+	  	<div class="col-3 mx-auto align-items-center">
+	    	<div class="col-auto my-1">
+	      	  <label class="mr-sm-2 mt-5" for="inlineFormCustomSelect">Players:</label>
+	      		<select name="people" class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+	        		<option value="4">4</option>
+	        		<option value="5">5</option>
+	        		<option value="6">6</option>
+	        		<option value="7">7</option>
+	        		<option value="8">8</option>
+	        		<option selected value="9">9</option>
+	      		</select>
+	    	</div>
+	    	<div class="col-auto my-1">
+	      		<div class="custom-control custom-checkbox mr-sm-2 p-0">
+	      			<label class="mr-sm-2" for="inlineFormCustomSelect">Time in seconds:</label>
+	        		<input class="form-control w-25" type="number" id="tentacles" name="time" value="120"
+       					min="30" max="180">
+	      		</div>
+	    	</div>
+	    	<div class="col-auto my-1">
+	      		<button id="save" type="submit" class="col-2 btn btn-danger btn-lg mx-auto d-block mt-3">Save</button>
+	    	</div>
+	  	</div>
+	</form>
+<script type="text/javascript" src="settings.js"></script>
+</body>
+</html>
